@@ -10,7 +10,6 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
-    //Le gusta el pipi?
 
     public void setEdad(int edad) {
         if (edad >= 0) {
