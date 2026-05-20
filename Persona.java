@@ -1,6 +1,7 @@
 public class Persona {
     private String nombre;
     private int edad;
+    private String cedula;
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -9,6 +10,7 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
+    //Le gusta el pipi?
 
     public void setEdad(int edad) {
         if (edad >= 0) {
